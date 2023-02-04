@@ -1,0 +1,99 @@
+/*@import "{{ site.theme }}";*/
+
+html {
+  font-size: 100%;
+  height: 100vh;
+}
+
+body {
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin: 0;
+  min-width: 770px;
+  z-index: 1;
+}
+
+h1 {
+  color: rgba(160, 0, 0, 1.0);
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 2.0em;
+  text-align: right;
+  text-shadow: 1px 1px #000000;
+  margin: 0;
+  font-family: "FreeMono", monospace;
+  letter-spacing: 0.65em;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+h4 {
+  margin: 5px 0 5px;
+}
+
+a {
+  color: rgba(250, 0, 0, 1.0);
+}
+
+audio, canvas, video, img {
+  display: inline-block;
+  *display: inline;
+}
+
+a:hover {
+  color: rgb(150, 150, 150);
+  border-color: rgba(0, 0, 0, 0.0);
+  text-shadow: 2px 2px black;
+}
+
+p {
+  font-size: 12px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+td {
+  padding: 0 5px;
+  color: white;
+}
+
+ul, img {
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+}
+
+body, button, section {
+  padding: 0;
+}
+
+button, option, select, input {
+  font-size: 1.3em;
+}
+
+input {
+  text-shadow: 1px 1px #ffffff;
+}
+
+table, section {
+  margin: 0;
+  width: 100%;
+}
+
+#wrapper {
+  width: auto;
+  height: max-content;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.txt-center {
+  text-align: center;
+}
